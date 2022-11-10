@@ -1,0 +1,267 @@
+.hide{
+    display:none;
+}
+#mainView h1 {
+  border-style: solid; 
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 20px;
+  padding-left: 150px;
+  background-color: #002D62;
+  color: white;
+
+}
+#creditPopup{
+    width: 100px;
+    height: 80px;
+    border-radius: 5px; 
+    border-style:solid;
+    border-color: #fff;  
+    color:white;
+    background-color:#002D62;
+    margin-left: 1150px;
+    position: absolute;
+    
+
+}
+
+#creditPopup p{
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: thin;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#mainView .topButton{
+    background-color: #002D62;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+
+}
+
+
+#playListButton{
+    margin-left: 400px;
+}
+
+#songSearch {
+
+    border-style:solid;
+    background-color: #002D62;
+    color: white;
+    height: 500px;
+    width: 300px;
+    float:left;
+
+}
+
+#songSearch h4{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    
+  
+}
+
+#results{
+    border-style:solid;
+    background-color: #002D62;
+    color: white;
+    height: 500px;
+    
+
+}
+
+#results h5{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: larger;
+
+}
+
+#mainViewFooter{
+    width: 100%;
+    background-color:  #002D62;
+    border-style: 2px solid white;
+    outline-style:outset;
+    outline-color:#002D62; ;
+}
+
+#mainViewFooter a:link, a:visited, a:hover, a:active{
+text-decoration: none;
+color:white;
+}
+
+#mainViewFooter a p{
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: 900;
+
+}
+
+.labelStyle{
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.filterBttmButton{
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:#002D62;
+    color: white;
+    text-align: center;
+}
+#titleInput{
+    margin-left: 15px;
+    width: 127px;
+}
+
+#pickArtist{
+    display: inline-block;
+    margin-left: 10px;
+    width: 135px;
+}
+#pickGenre{
+    display: inline-block;
+    margin-left: 3px;
+    width: 133px;
+}
+#one{
+    display: block;
+
+}
+
+#two{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#three{
+    display: block;
+}
+
+.songStruct{
+
+    display:inline-block;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 300px;
+    width: 220px;
+    overflow-y: scroll;
+}
+
+.songStruct li{
+    padding: 8px;
+    overflow-x: hidden;
+}
+
+
+#popularityResult{
+    
+    border-right: solid;
+    border-right-color: aliceblue;  
+}
+#genreResult{
+    border-right: solid;
+    border-right-color: aliceblue;
+    
+}
+
+#yearResult{
+    border-right:solid;
+    border-right-color: aliceblue;
+
+}
+
+
+#artistResult{
+
+    border-right: solid;
+    border-right-color: aliceblue; 
+}
+
+
+#titleResult{
+    border-right: solid;
+    border-right-color: aliceblue;
+}
+.resultList{
+    list-style: none;
+       
+}
+
+.resultList li{
+    margin: 5px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+
+#addButton{
+    display:inline-block;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 900px;
+    padding: 18px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    border: solid;
+    border-width: medium;
+    border-color: white;
+    background-color: #002D62;
+}
+#singleView{
+    display: none;
+}
+
+#singleView h2 {
+    border-style: solid; 
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 20px;
+    padding-left: 150px;
+    background-color: #002D62;
+    color: white;
+    font-weight: 900;
+}
+
+.topButtonSingle{
+    background-color: #002D62;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 750;
+  
+    
+}
+
+
+#closeSingle{
+    margin-left: 400px;
+}
+#playlistView {
+    display: none;
+}
