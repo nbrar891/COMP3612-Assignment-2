@@ -27,33 +27,29 @@
     <div id = "filter">
 
         <div id ="one">
-        <input type="radio" value="title" id="titleSearch">
+        <input type="checkbox" value="title" id="titleSearch">
         <label class ="labelStyle" for="titleSearch">Title</label>
         <input id ="titleInput" type="text">
         </div>
 
         <div id ="two">
-        <input type="radio" value ="artist" id ="artistSearch">
+        <input type="checkbox" value ="artist" id ="artistSearch">
         <label class ="labelStyle" for ="artistSearch">Artist</label>
         <select id="pickArtist">
-            <option value="none">Select Artist</option>
-            <option value="artist1">Art1</option>
-            <option value="artist2">Art2</option>  
+            <option value="none">Select Artist</option> 
         </select>
         </div>
 
         <div id = "three">
-        <input type="radio" value ="genre" id ="genreSearch">
+        <input type="checkbox" value ="genre" id ="genreSearch">
         <label class = "labelStyle" for ="genreSearch">Genre</label>
         <select id ="pickGenre">
-            <option value="none">Select Genre</option>
-            <option value="genre1">Genre1</option>
-            <option value="genre2">Genre2</option>  
+            <option value="none">Select Genre</option>    
         </select>
         </div>
     </div>
-    <button class ="filterBttmButton"> Clear</button>
-    <button class ="filterBttmButton">Apply Filter</button>
+    <button class ="filterBttmButton" id = "clearButton"> Clear</button>
+    <button class ="filterBttmButton" id = "applyFilterButton">Apply Filter</button>
 </div>
 
 
@@ -65,20 +61,14 @@
    <div class="songStruct" id="titleResult">Title
     <img src = "arrow.png" alt = arrow width = "15" height = "15">
     <ul id = "titleResultList" class="resultList">
-        <li>"Homemade Dynamite (Feat. Khalid, Post Malone & SZA)"</li>
-        <li>Nothing Breaks Like a Heart (feat. Miley Cyrus)</li>
-        <li> A very Long Song that Keeps Breaking over and over again</li>
+  
     </ul>
    </div>
 
    <div class ="songStruct" id="artistResult">Artist
     <img src = "arrow.png" alt = arrow width = "15" height = "15">
     <ul id = "artistResultList" class="resultList">
-        <li>Another Artist With Long Name that is Pretty Long</li>
-        <li>Miley Cyrusghghjfhjfgfty</li>
-        <li>21 Savagejbjkbjbjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbjkbj jbjb hiohi</li>
-        <li>21 Savagejbjkbjbjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbjkbj jbjb hiohi</li>
-        <li>21 Savagejbjkbjbjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbjkbj jbjb hiohi</li><li>
+       
 
     </ul> 
    </div>
@@ -86,15 +76,6 @@
    <div class = "songStruct" id ="yearResult">Year
     <img src = "arrow.png" alt = arrow width = "15" height = "15">
     <ul id = "yearResultList" class="resultList">
-        <li>1978</li>
-        <li>1978</li>
-        <li>1978</li>
-        <li>1978</li>
-        <li>1978</li>
-        <li>1978</li>
-        <li>1978</li>
-        <li>1978</li>
-        <li>1978</li>
         
     </ul>
    </div>
@@ -102,20 +83,14 @@
    <div class ="songStruct" id ="genreResult">Genre
     <img src = "arrow.png" alt = arrow width = "15" height = "15">
     <ul id = "genreResultList" class="resultList">
-        <li>Super Long Genre That Breaks</li>
-        <li>RNB sdjhhcdjfh kdfkdfh fjdifi</li>
-        <li>Jazz dndkafndkfndcdckdkchdvikdhvi kdjjjjjjjjjjjjjjjjjjjjjjj djsd</li>
+  
     </ul>
    </div>
 
    <div class = "songStruct" id="popularityResult">Popularity
     <img src = "arrow.png" alt = arrow width = "15" height = "15">
     <ul id ="popularityResultList" class="resultList">
-        <li>78</li>
-        <li>60</li>
-        <li>50</li>
-        <li>50</li>
-        <li>50</li>
+      
 
     </ul>
    </div>
