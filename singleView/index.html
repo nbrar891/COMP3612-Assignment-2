@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8"/>
+        <title>Assignment 2</title>
+        <link rel ="stylesheet" href = "asg2.css">
+        <script src="assign2.js"></script>
+    </head>
+
+<body>
+
+<section id = "mainView">
+<h1> Song Application
+<button id ="playListButton"class="topButton">Playlist</button>
+
+<button id ="creditButton" class ="topButton">Credits</button>
+</h1>
+
+<div id ="creditPopup" class ="hide">
+    <p>Pelvain Dhanda & Nimrat Brar</p>
+    <p>Github Repo</p>
+</div>
+
+<div id ="songSearch">
+    <h4>Basic Song Search</h4>
+
+    <div id = "filter">
+
+        <div id ="one">
+        <input type="checkbox" value="title" id="titleSearch">
+        <label class ="labelStyle" for="titleSearch">Title</label>
+        <input id ="titleInput" type="text">
+        </div>
+
+        <div id ="two">
+        <input type="checkbox" value ="artist" id ="artistSearch">
+        <label class ="labelStyle" for ="artistSearch">Artist</label>
+        <select id="pickArtist">
+            <option value="none">Select Artist</option> 
+        </select>
+        </div>
+
+        <div id = "three">
+        <input type="checkbox" value ="genre" id ="genreSearch">
+        <label class = "labelStyle" for ="genreSearch">Genre</label>
+        <select id ="pickGenre">
+            <option value="none">Select Genre</option>    
+        </select>
+        </div>
+    </div>
+    <button class ="filterBttmButton" id = "clearButton"> Clear</button>
+    <button class ="filterBttmButton" id = "applyFilterButton">Apply Filter</button>
+</div>
+
+
+<div id ="results">
+    <h5> Browse / Search Results
+    <button id ="addButton">ADD</button>
+    </h5>
+
+   <div class="songStruct" id="titleResult">Title
+    <img src = "arrow.png" alt = arrow width = "15" height = "15">
+    <ul id = "titleResultList" class="resultList">
+  
+    </ul>
+   </div>
+
+   <div class ="songStruct" id="artistResult">Artist
+    <img src = "arrow.png" alt = arrow width = "15" height = "15">
+    <ul id = "artistResultList" class="resultList">
+       
+
+    </ul> 
+   </div>
+
+   <div class = "songStruct" id ="yearResult">Year
+    <img src = "arrow.png" alt = arrow width = "15" height = "15">
+    <ul id = "yearResultList" class="resultList">
+        
+    </ul>
+   </div>
+
+   <div class ="songStruct" id ="genreResult">Genre
+    <img src = "arrow.png" alt = arrow width = "15" height = "15">
+    <ul id = "genreResultList" class="resultList">
+  
+    </ul>
+   </div>
+
+   <div class = "songStruct" id="popularityResult">Popularity
+    <img src = "arrow.png" alt = arrow width = "15" height = "15">
+    <ul id ="popularityResultList" class="resultList">
+      
+
+    </ul>
+   </div>
+
+</div>
+
+<footer id ="mainViewFooter">
+    <a href ="#"><p>Copyright &copy; 2022 Song Application</p></a>
+    <a href ="#"><p>About Us</p></a>
+    <a href ="#"><p>Privacy Policy</p></a>
+    <a href ="#"><p>Sitemap</p></a>
+</footer>
+
+</section>
+
+<section id = "singleView">
+<h2> Single Song View
+<button id ="closeSingle" class="topButtonSingle">Close View</button>
+<button id ="creditButtonSingle"  class ="topButtonSingle">Credits</button>
+</h2>
+
+<div id="song_info">
+    <h1>Song Information</h1>
+    <div id = "songInfo1">
+    <p id=" title">Champion</p>
+    <p id = "artistName">Nav</p>
+    <p id = "artistType">rapper</p>
+    </div>
+    <div id = "songInfo2">
+    <p id = "genre">HipHop</p>
+    <p id = "year">2017</p>
+    <p id = "duration">2</p> <!--would need to make a function to show in minutes and seconds-->
+    </div>
+    <div id = "analysisData">
+    <p>Analysis data:</p>
+    <ul>
+        <!--display song info-->
+    </ul>
+    </div>
+</div>
+
+<div id="radar_chart">
+    <h1>Radar Chart</h1>
+    <!--display chart-->
+</div>
+
+<footer>
+    <a href ="#"><p>Copyright &copy; 2022 Song Application</p></a>
+    <a href ="#"><p>About Us</p></a>
+    <a href ="#"><p>Privacy Policy</p></a>
+    <a href ="#"><p>Sitemap</p></a>
+</footer>
+
+
+</section>
+
+<section id = "playlistView">
+<h3> PlayList View</h3>
+
+
+<footer>
+    <a href ="#"><p>Copyright &copy; 2022 Song Application</p></a>
+    <a href ="#"><p>About Us</p></a>
+    <a href ="#"><p>Privacy Policy</p></a>
+    <a href ="#"><p>Sitemap</p></a>
+</footer>
+</section>
+
+</body>
+
+</html>
