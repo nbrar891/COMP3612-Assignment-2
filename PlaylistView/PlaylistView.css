@@ -1,0 +1,72 @@
+#playlistView h1{
+    background-color: #002D62;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    padding-left: 150px;
+    color:white;    
+    font-family: Helvetica, Arial, sans-serif;
+    
+  
+}
+#playlistView #results h5{
+    text-align: left;
+    margin-left: 30px;
+    
+}
+#playlistView .topButton{
+    background-color: #002D62;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    
+
+}
+#playlistView .button{
+    background-color: #002D62;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+
+    
+
+}
+
+#playlistView #clearPlaylist{
+    margin-left: 1000px;
+}
+
+#playlistView #results{
+   border-style: bold;
+   border-color: white;
+    padding-bottom: 70px;
+    
+    
+}
+
+#playlistViewFooter{
+    width: 100%;
+    background-color:  #002D62;
+    border-style: 2px solid white;
+   
+    outline-color:#002D62; 
+    
+
+}
+#playlistViewFooter a p{
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: 900;
+
+}
+#playListView footer a {
+    text-decoration: none;
+    color:white;
+}
+
