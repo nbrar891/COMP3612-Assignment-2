@@ -182,6 +182,7 @@ function mainApplication(songData){
                 duration.textContent = "Time: " + minutes + " minutes" + " and " + seconds + " seconds"
 
                 //create chart
+		//destroy instance of previous chart	
                 //credit for chart handling: https://stackoverflow.com/questions/40056555/destroy-chart-js-bar-graph-to-redraw-other-graph-in-same-canvas
                 let chartStatus = Chart.getChart("myChart"); // <canvas> id
                    if (chartStatus != undefined) {
